@@ -3,4 +3,5 @@ function foo($num){
     $result = $num*2;
     return $result;
 }
-echo foo(50);
+//$numに数字を代入する
+echo foo($num);
