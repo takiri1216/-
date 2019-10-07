@@ -4,4 +4,4 @@ function foo($num){
     return $result;
 }
 //$numに数字を代入する
-echo foo($num);
+echo foo(5);

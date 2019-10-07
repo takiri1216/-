@@ -12,4 +12,4 @@ function foo($arr){
     }
 }
 //()内に数字を代入する
-echo foo();
+echo foo(3);

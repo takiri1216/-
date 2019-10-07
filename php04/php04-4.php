@@ -2,8 +2,11 @@
 function max_array($arr){
     $max_number = $arr[0];
     
-    //この作り方でいいのなら必要ない?
     foreach($arr as $a){
+    //要素が$max_numberよりも大きいとその数字と置き換える式
+        if ($max_number < $a){
+            $max_number = $a;
+         }
         }
     
 return $max_number;

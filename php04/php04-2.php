@@ -4,4 +4,4 @@ function f($a,$b){
     return $result;
 }
 //$a,$bに数字を代入する
-echo f($a,$b);
+echo f(6,8);
